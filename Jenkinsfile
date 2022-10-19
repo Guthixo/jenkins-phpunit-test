@@ -1,7 +1,7 @@
 pipeline {
 	agent {
 		docker {
-			image 'composer:19-dind'
+			image 'composer:latest'
 		}
 	}
 	stages {
